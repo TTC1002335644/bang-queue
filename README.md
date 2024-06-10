@@ -177,3 +177,5 @@ class Consume implements Consumer
  &> php think bang_queue:work start -d true
 
 两种，具体的可选参数可以输入命令加 `--help` 查看
+
+> 有问题请联系 邮箱：`1002335644@qq.com`
