@@ -1,0 +1,31 @@
+{
+    "name": "bang/queue",
+    "description": "依赖workerma环和redis环境的任务队列插件",
+    "type"  : "library",
+    "require": {
+        "php": ">=8.1",
+        "topthink/framework": "^8.0",
+        "workerman/redis-queue": "^1.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "bang\\queue\\": "src/"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "bang\\queue\\queue\\Service"
+            ],
+            "config": {
+                "bang_queue": "src/config.php"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "Bang"
+        }
+    ]
+}
