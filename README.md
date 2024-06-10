@@ -93,10 +93,10 @@
 ## 创建任务类
 > 任务类 必须 `implements` `bang\queue\Consumer`
 > 
-> 以下是一个例子
+> 
 
 
-### 下面写两个例子
+### 以下写一个例子
 
 ```php
 <?php
