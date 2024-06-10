@@ -1,6 +1,6 @@
 {
     "name": "bang/queue",
-    "description": "依赖workerma环和redis环境的任务队列插件",
+    "description": "依赖workerman环境和redis环境的任务队列插件",
     "type"  : "library",
     "require": {
         "php": ">=8.1",
