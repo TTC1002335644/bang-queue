@@ -178,4 +178,8 @@ class Consume implements Consumer
 
 两种，具体的可选参数可以输入命令加 `--help` 查看
 
+
+## 注意事项
+> 为了在长时间中，mysql有断开的风险。建议在 `database.php`配置文件中 `break_reconnect` 设置成 `true`。也就是支持断线重连功能。 
+
 > 有问题请联系 邮箱：`1002335644@qq.com`
